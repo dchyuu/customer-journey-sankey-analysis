@@ -1,0 +1,15 @@
+# Notebook cache
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Local environment
+.env
+.venv/
+venv/
+.DS_Store
+
+# Raw data is excluded by default
+# Remove these rules only when you are allowed to publish the dataset.
+data/*
+!data/README.md
