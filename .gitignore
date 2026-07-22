@@ -9,7 +9,9 @@ __pycache__/
 venv/
 .DS_Store
 
-# Raw data is excluded by default
-# Remove these rules only when you are allowed to publish the dataset.
-data/*
-!data/README.md
+# Datasets are stored externally on Google Drive
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.zip
